@@ -1,8 +1,8 @@
 import { memo, useState } from "react";
 
-const IssueScript = () => {
+const IssueScript = memo(() => {
   return <>개의 이슈가 생성되었습니다!</>;
-};
+});
 
 const IssuePrinter = ({ count }) => {
   return (
